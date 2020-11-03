@@ -1,0 +1,42 @@
+<script src="//cdn.sshviral.com/assets/js/my-video.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap" rel="stylesheet">
+
+</head>
+<body onload="play()">
+
+
+<video
+    id="my-video"
+    class=""
+    
+    
+    preload="auto"
+    width="415"
+    height="280"
+    poster="https://tv.bdtype.com/uploads/tv_image/kix-tv.png"
+    data-setup="{}">
+   <source src="http://speedtest.tm.com.my.iptv.fiptechvpn.com/session/14093234-15e3-11eb-a8ab/uq2663/h/h07/01.m3u8" type="video/mp4">
+   </video>
+
+
+<article>
+
+
+ <div id="pause_div" class="main-div">
+    <h3>Stream : <font color="red">offline</font></h3>
+    
+<button class="badge badge-pill badge-light font-weight-normal px-3 py-2" onclick="pause()">Play
+</button>
+  </div>
+
+  <div id="play_div" class="loggedin-div">
+    <h3>Stream : <font color="green">online</font></h3>
+        <button class="badge badge-pill badge-light font-weight-normal px-3 py-2" onclick="play()">Pause
+</button>
+ </div>       
+</article>
+
